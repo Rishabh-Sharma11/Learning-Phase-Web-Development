@@ -1,0 +1,9 @@
+<% include partials/header %>
+<h1>Your Task : <%= taskVar %></h1>
+<% if(taskVar==="ml"||taskVar==="webd"||taskVar==="astronomy"||taskVar==="coding"){ %>
+        <p>Good choice</p>
+<% }else{ %>
+        <p>Bad choice</p>
+<% } %>
+<h2>This is tasks.ejs file</h2>
+<% include partials/footer %>
